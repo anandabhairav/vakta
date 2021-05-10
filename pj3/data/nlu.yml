@@ -85,7 +85,22 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - tu hai kaun be?
+    - why do you make no sense at all?
 - intent: question_mood
   examples: |
     - Aaj kya mood hai
     - aaj kya mood hai?
+    - what are you so happy about?
+    - aaj kya mood hai
+    - ye kya ho raha hai?
+- intent: mood_indignant
+  examples: |
+    - ye kya baat hui?
+    - what the hell do you mean bye?
+- intent: mood_confused
+  examples: |
+    - huh?
+- intent: give_information
+  examples: |
+    - mera naam arjun hai

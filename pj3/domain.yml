@@ -19,6 +19,10 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
+- question_mood:
+    use_entities: true
+- mood_indignant:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -37,6 +41,11 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-actions: []
+  utter_pacify:
+  - text: I am sorry
+  - text: Please dont be upset
+  - text: aree main to bas aise hi kah raha tha
+actions:
+- utter_pacify
 forms: {}
 e2e_actions: []
