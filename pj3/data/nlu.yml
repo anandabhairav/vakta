@@ -38,6 +38,7 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - yes thank you
 - intent: deny
   examples: |
     - no
@@ -64,6 +65,7 @@ nlu:
     - so good
     - so perfect
     - good to know
+    - :)
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -80,6 +82,9 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - im unhappy idiot
+    - i am bored
+    - man paapi hai
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -88,6 +93,10 @@ nlu:
     - am I talking to a human?
     - tu hai kaun be?
     - why do you make no sense at all?
+    - nahi tu pagal hai
+    - tu pagal hai
+    - i got that, but what else do you know?
+    - tum kaun ho?
 - intent: question_mood
   examples: |
     - Aaj kya mood hai
@@ -105,3 +114,18 @@ nlu:
 - intent: give_information
   examples: |
     - mera naam arjun hai
+- intent: mood_thinking
+  examples: |
+    - hmmmm
+- intent: mood_scattered
+  examples: |
+    - man chanchal hai
+- intent: mood_normal
+  examples: |
+    - its okay, i am not upset
+- intent: continue_conversation
+  examples: |
+    - but i want to talk more
+- intent: appreciation
+  examples: |
+    - wow that was cool

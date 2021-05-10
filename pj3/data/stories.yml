@@ -30,3 +30,39 @@ stories:
   - action: utter_happy
   - intent: mood_indignant
   - action: utter_pacify
+- story: Story from Conversation ID ee443b644ab34246b61c51b6b087b9cb
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+- story: Story from Conversation ID 443431e213d54f3f9b1826ad9c0a054d
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: affirm
+  - action: utter_happy
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: mood_indignant
+  - action: utter_pacify
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy

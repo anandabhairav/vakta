@@ -1,0 +1,95 @@
+{
+  "mood_great": {
+    "precision": 0.5555555555555556,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.606060606060606,
+    "support": 15,
+    "confused_with": {
+      "mood_unhappy": 3,
+      "greet": 2
+    }
+  },
+  "question_mood": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "bot_challenge": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.6,
+    "support": 11,
+    "confused_with": {
+      "bot_challenge": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "deny": {
+    "precision": 0.4444444444444444,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5,
+    "support": 7,
+    "confused_with": {
+      "mood_unhappy": 1,
+      "mood_great": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.5,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.22222222222222224,
+    "support": 7,
+    "confused_with": {
+      "mood_great": 2,
+      "goodbye": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.6857142857142857,
+    "support": 17,
+    "confused_with": {
+      "deny": 2,
+      "bot_challenge": 2
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.5,
+    "recall": 0.625,
+    "f1-score": 0.5555555555555556,
+    "support": 8,
+    "confused_with": {
+      "mood_great": 2,
+      "deny": 1
+    }
+  },
+  "greet": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 15,
+    "confused_with": {
+      "mood_great": 3,
+      "goodbye": 1
+    }
+  },
+  "accuracy": 0.611764705882353,
+  "macro avg": {
+    "precision": 0.625,
+    "recall": 0.5904944932518462,
+    "f1-score": 0.5906385281385281,
+    "support": 85
+  },
+  "weighted avg": {
+    "precision": 0.6189542483660131,
+    "recall": 0.611764705882353,
+    "f1-score": 0.6034411340293693,
+    "support": 85
+  }
+}
