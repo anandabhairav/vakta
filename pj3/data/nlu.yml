@@ -48,6 +48,8 @@ nlu:
     - don't like that
     - no way
     - not really
+    - no'
+    - ni
 - intent: mood_great
   examples: |
     - perfect
@@ -114,6 +116,7 @@ nlu:
 - intent: give_information
   examples: |
     - mera naam arjun hai
+    - realized that there's a problem with the way the automated update is launching teh browser
 - intent: mood_thinking
   examples: |
     - hmmmm
@@ -126,6 +129,15 @@ nlu:
 - intent: continue_conversation
   examples: |
     - but i want to talk more
+    - but i want to talk
+    - but still want to talk to you
+    - i want to talk to you
 - intent: appreciation
   examples: |
     - wow that was cool
+- intent: issue_report
+  examples: |
+    - Again critical error
+- intent: mood_hostile
+  examples: |
+    - you are stupid
