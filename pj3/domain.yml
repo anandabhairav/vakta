@@ -23,6 +23,12 @@ intents:
     use_entities: true
 - mood_indignant:
     use_entities: true
+- nlu_fallback:
+    use_entities: true
+- mood_confused:
+    use_entities: true
+- give_information:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -45,6 +51,10 @@ responses:
   - text: I am sorry
   - text: Please dont be upset
   - text: aree main to bas aise hi kah raha tha
+  utter_phrase_rephrase:
+  - text: Kya bolte tume?
+  - text: Really?
+  - text: Huh?
 actions:
 - utter_pacify
 forms: {}
