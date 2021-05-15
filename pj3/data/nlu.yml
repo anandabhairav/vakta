@@ -141,3 +141,7 @@ nlu:
 - intent: mood_hostile
   examples: |
     - you are stupid
+- intent: nlu_fallback
+  examples: |
+    - dd
+    - Hi theresfsfsf!

@@ -29,6 +29,20 @@ intents:
     use_entities: true
 - give_information:
     use_entities: true
+- mood_hostile:
+    use_entities: true
+- continue_conversation:
+    use_entities: true
+- mood_normal:
+    use_entities: true
+- appreciation:
+    use_entities: true
+- mood_scattered:
+    use_entities: true
+- issue_report:
+    use_entities: true
+- mood_thinking:
+    use_entities: true
 entities: []
 slots: {}
 responses:
