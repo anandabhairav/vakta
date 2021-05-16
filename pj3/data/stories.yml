@@ -89,3 +89,15 @@ stories:
   - action: utter_iamabot
   - intent: bot_challenge
   - action: utter_iamabot
+- story: Story from Conversation ID 429db36a66d8446a9d87f4cce92f3c43
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: restart
+  - action: action_restart
+- story: Story from Conversation ID e662739c2f804157899234961ce16bb6
+  steps:
+  - intent: compliment
+  - action: utter_compliment_response

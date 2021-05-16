@@ -43,6 +43,14 @@ intents:
     use_entities: true
 - mood_thinking:
     use_entities: true
+- express_affinity:
+    use_entities: true
+- compliment:
+    use_entities: true
+- question_intent:
+    use_entities: true
+- restart:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -65,11 +73,16 @@ responses:
   - text: I am sorry
   - text: Please dont be upset
   - text: aree main to bas aise hi kah raha tha
-  utter_phrase_rephrase:
+  utter_please_rephrase:
   - text: Kya bolte tume?
   - text: Really?
   - text: Huh?
+  utter_compliment_response:
+  - text: Thank you!
+  - text: Wow! That's nice of you to say!
+  - text: Blush blush
 actions:
 - utter_pacify
+- utter_compliment_response
 forms: {}
 e2e_actions: []

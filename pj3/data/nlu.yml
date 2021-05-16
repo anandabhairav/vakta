@@ -17,6 +17,7 @@ nlu:
     - good afternoon
     - namaste
     - Hi
+    - are you there?
 - intent: goodbye
   examples: |
     - good afternoon
@@ -68,6 +69,7 @@ nlu:
     - so perfect
     - good to know
     - :)
+    - Good to see you!
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -106,6 +108,8 @@ nlu:
     - what are you so happy about?
     - aaj kya mood hai
     - ye kya ho raha hai?
+    - I'm good, how about you?
+    - Why are you leaving?
 - intent: mood_indignant
   examples: |
     - ye kya baat hui?
@@ -132,6 +136,8 @@ nlu:
     - but i want to talk
     - but still want to talk to you
     - i want to talk to you
+    - Arre you didnt answer the question
+    - Please dont go
 - intent: appreciation
   examples: |
     - wow that was cool
@@ -145,3 +151,19 @@ nlu:
   examples: |
     - dd
     - Hi theresfsfsf!
+    - Hi theresdfsfdsf!
+    - Gjbgvjj
+    - Huvdhbbfi
+- intent: express_affinity
+  examples: |
+    - I love you
+- intent: compliment
+  examples: |
+    - You have nice lips
+    - You're pretty
+    - you're pretty
+- intent: question_intent
+  examples: |
+    - Sure, got that...but why were you waiting for me?
+    - Why?
+    - Really?
