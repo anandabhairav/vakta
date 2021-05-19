@@ -40,6 +40,7 @@ nlu:
     - that sounds good
     - correct
     - yes thank you
+    - yep
 - intent: deny
   examples: |
     - no
@@ -121,6 +122,7 @@ nlu:
   examples: |
     - mera naam arjun hai
     - realized that there's a problem with the way the automated update is launching teh browser
+    - Getting high
 - intent: mood_thinking
   examples: |
     - hmmmm
@@ -130,6 +132,7 @@ nlu:
 - intent: mood_normal
   examples: |
     - its okay, i am not upset
+    - Just getting hy
 - intent: continue_conversation
   examples: |
     - but i want to talk more
@@ -138,12 +141,20 @@ nlu:
     - i want to talk to you
     - Arre you didnt answer the question
     - Please dont go
+    - Once upon a time
+    - :) my pleasure
 - intent: appreciation
   examples: |
     - wow that was cool
+    - Wow
+    - जे बात!
 - intent: issue_report
-  examples: |
-    - Again critical error
+  examples:
+  - text: |
+      Again critical error
+  - text: |
+      देवू की जमीन को लेकर राजनीति शुरू, किसानों को जमीन वापस दिलाने की उठने लगी है मांग, हाई कोर्ट में चल रहा है मामला
+      https://theruralpress.in/politics-started-on-daewoos-land-there-is-a-demand-to-get-back-the-farmers-land-the-matter-is-going-on-in-the-high-court/
 - intent: mood_hostile
   examples: |
     - you are stupid
@@ -154,6 +165,8 @@ nlu:
     - Hi theresdfsfdsf!
     - Gjbgvjj
     - Huvdhbbfi
+    - kasj
+    - ?/
 - intent: express_affinity
   examples: |
     - I love you
@@ -162,8 +175,28 @@ nlu:
     - You have nice lips
     - You're pretty
     - you're pretty
+    - you're hot
 - intent: question_intent
   examples: |
     - Sure, got that...but why were you waiting for me?
     - Why?
     - Really?
+    - Why are you asking?
+- intent: express_disapproval
+  examples: |
+    - Really dumb
+    - क्या बकवास है यार
+    - You seem off today
+- intent: hostile_comment
+  examples: |
+    - You're dump
+- intent: question_understanding
+  examples: |
+    - Didnt get it?
+    - नाहि समझ रहे हो तुम
+- intent: question_wellbeing
+  examples: |
+    - Sab changa si?
+- intent: question_availability
+  examples: |
+    - are you therE?
